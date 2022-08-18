@@ -2,7 +2,7 @@
   const config = 'webpackWillReplaceThisWithConfig';
   let timeline;
 
-  const createAnimation = function() {
+  function createAnimation() {
     const tl = gsap.timeline({paused: true});
 
     tl.to('.content', { duration: 1, opacity: 1 })
@@ -10,12 +10,12 @@
     return tl;
   }
 
-  const handleExit = function() {
+  function handleExit() {
     window.open(window.clickTag, '_blank');
     timeline.progress(1);
   }
 
-  const init = function() {
+  function init() {
     document.querySelector('.mainExit').addEventListener('click', handleExit);
 
     timeline = createAnimation();
