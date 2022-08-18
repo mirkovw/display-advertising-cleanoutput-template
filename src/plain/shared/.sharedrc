@@ -1,6 +1,5 @@
 {
   "settings": {
-    "browserSupport": ["> 1%", "not ie 11"],
     "optimizations": {
       "css": false,
       "image": false,

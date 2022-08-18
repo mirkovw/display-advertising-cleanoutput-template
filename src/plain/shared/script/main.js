@@ -18,14 +18,6 @@
   const init = function() {
     document.querySelector('.mainExit').addEventListener('click', handleExit);
 
-    // wait for load images
-    const allImagesHTMLCollection = document.getElementsByTagName('img');
-    for (let image of allImagesHTMLCollection ) {
-      // console.log(image.complete)
-    }
-
-    // wait for load fonts
-
     timeline = createAnimation();
     timeline.play();
   }
