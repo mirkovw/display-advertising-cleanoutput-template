@@ -1,5 +1,8 @@
 (function() {
+  // below line will be replaced by 'const config = {...[the whole richmediaRc]}'
+  // so you can still use all the settings/content like you normally would, i.e. config.settings.size.width
   const config = 'webpackWillReplaceThisWithConfig';
+  
   let timeline;
 
   function createAnimation() {
@@ -25,5 +28,5 @@
   window.onload = function() {
     init();
   }
-
+  
 })();
