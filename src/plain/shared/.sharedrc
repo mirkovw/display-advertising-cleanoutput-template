@@ -6,6 +6,9 @@
       "html": false,
       "js": false
     },
+    "contentSource": {
+      "url": "https://docs.google.com/spreadsheets/d/1f-BxXd5-yWXrHwZZHJHmfRZHG8vqtSsQ8V0AUjPQXeA/edit#gid=0"
+    },
     "useOriginalFileNames": true,
     "entry": {
       "js": "./script/main.js",
