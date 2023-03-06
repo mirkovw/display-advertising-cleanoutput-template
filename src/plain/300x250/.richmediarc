@@ -4,8 +4,12 @@
     "size": {
       "width": 300,
       "height": 250
-    },
-    "entry": {}
+    }
   },
-  "content": {}
+  "content": {
+    "customCss": "./css/custom.scss",
+    "title": "Welcome to this Banner!",
+    "cta": "CLICK HERE",
+    "logo": "./img/logo.svg"
+  }
 }

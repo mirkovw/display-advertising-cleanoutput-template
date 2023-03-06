@@ -1,0 +1,69 @@
+:root {
+  --red: #d51b28;
+  --grey: #221f1f;
+  --white: #221f1f;
+
+  --width: calc(var(--settings-size-width) * 1px);
+  --height: calc(var(--settings-size-height) * 1px);
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url('./../fonts/OpenSans-Regular.woff') format('woff'), url('./../fonts/OpenSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSansBold;
+  src: url('./../fonts/OpenSans-Bold.woff') format('woff'), url('./../fonts/OpenSans-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fullscreen {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--width);
+  height: var(--height);
+}
+
+.border {
+  border: 1px solid #000000;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  width: var(--width);
+  height: var(--height);
+  background-color: var(--content-bgcolor);
+}
+
+.content {
+  opacity: 0;
+}
+
+.mainExit {
+  cursor: pointer;
+}
