@@ -1,5 +1,6 @@
 {
   "settings": {
+    "maxFileSize": 150,
     "optimizations": {
       "css": false,
       "image": true,
